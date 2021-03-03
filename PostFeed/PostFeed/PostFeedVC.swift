@@ -20,7 +20,7 @@ class PostFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.register(TextAndImageTableViewCell.nib(), forCellReuseIdentifier: TextAndImageTableViewCell.identifier)
         tableView.register(TextOnlyTableViewCell.nib(), forCellReuseIdentifier: TextOnlyTableViewCell.identifier)
     }
-
+/*
     override func viewWillAppear(_ animated: Bool) {
         self.returnAllPosts()
     }
@@ -49,7 +49,7 @@ class PostFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             }
         }
     }
-
+*/
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.posts.count
     }

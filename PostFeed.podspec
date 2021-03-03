@@ -8,7 +8,7 @@ s.summary = "PostFeed allows for posts of text and an image or just an image."
 s.requires_arc = true
 
 # 2
-s.version = "1.0.0"
+s.version = "1.1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -23,11 +23,10 @@ s.homepage = "https://github.com/siska/PostFeed"
 s.source = { :git => "https://github.com/siska/PostFeed.git",
              :tag => "#{s.version}" }
 
-# 7
-# no additional cocoapods
+# 7 - no additional cocoapods
 
 # 8
-s.source_files = "PostFeed/**/*.{swift}"
+s.source_files = "PostFeed", "PostFeed/**/*.{swift}"
 
 # 9
 s.resources = "PostFeed/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
