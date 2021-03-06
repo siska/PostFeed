@@ -8,7 +8,7 @@ s.summary = "PostFeed allows for posts of text and an image or just an image."
 s.requires_arc = true
 
 # 2
-s.version = "1.1.0"
+s.version = "1.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }

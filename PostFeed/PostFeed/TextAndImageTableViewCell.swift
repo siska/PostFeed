@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextAndImageTableViewCell: UITableViewCell {
+public class TextAndImageTableViewCell: UITableViewCell {
 
     @IBOutlet var posterLabel: UILabel!
     @IBOutlet var postTextView: UITextView!
